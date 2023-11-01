@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <div id="container">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <p>
+                <label for="dropbox">Salutation</label>
+                <br>
+
+                <select>
+                    <option value="none" selected>--none--</option>
+                    <option value="none" >Audi</option>
+                    <option value="none" >Volvo</option>
+                    <option value="none" >Lambo</option>
+                    <option value="none">Faraari</option>
+                </select>
+            </p>
+        
+            <p>
+                <form id="form">
+                    <label class="form1" for="first-name">First Name:</label>
+                    <input type="text"><br><br>
+                    <label class="form2" for="last-name">Last Name:</label>
+                    <input type="text">
+                </form>
+            </p>
+            
+            <p>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="male">male</input>
+                <input type="radio" name="gender" value="male">male</input>
+                <br>
+            </p>
+            
+            <p>
+                <label for="dob">Date of Birth:</label>
+                <input type="date">
+                <br>
+            </p>
+
+            <p>
+                <label for="textarea">Textarea:</label><br>
+                <textarea name="" id="" cols="30" rows="3"></textarea>
+            </p>
+            
+            <button type="submit">Submit</button>
+        </fieldset>
+
+    </div>
+    
+    
+</body>
+</html>
